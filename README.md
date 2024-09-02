@@ -38,26 +38,30 @@ Ensure you have the following installed:
    ```bash
    git clone https://github.com/your-username/inventory-management-client.git
 2. Navigate to the project directory:
-
-cd inventory-management-client
+   
+   ```bash
+   cd inventory-management-client
 
 3. Install dependencies:
-
-npm install
-# or
-yarn install
+   
+   ```bash
+   npm install
+   # or
+   yarn install
 
 4. Create a .env file in the root directory and add the following environment variables:
-
-REACT_APP_API_URL=http://your-backend-url/api
+   
+   ```bash
+   REACT_APP_API_URL=http://your-backend-url/api
 
 ## Running the Application
 
 1. Start the development server:
-
-npm start
-# or
-yarn start
+   
+   ```bash
+   npm start
+   # or
+   yarn start
 
 2. Open your browser and navigate to http://localhost:3000 to see the application in action.
 
