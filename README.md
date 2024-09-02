@@ -91,7 +91,7 @@ Here’s a brief overview of the project structure:
 - `npm run build` or `yarn build`: Build the project for production.
 - `npm test` or `yarn test`: Run tests.
 
-## Contributing
+<!--## Contributing
 
 Contributions are welcome! Please follow these guidelines:
 
@@ -99,5 +99,5 @@ Contributions are welcome! Please follow these guidelines:
 2. Create a feature branch (`git checkout -b feature/YourFeature`).
 3. Commit your changes (`git commit -am 'Add new feature'`).
 4. Push to the branch (`git push origin feature/YourFeature`).
-5. Open a pull request.
+5. Open a pull request.->
 
