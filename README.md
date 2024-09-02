@@ -30,6 +30,7 @@ Ensure you have the following installed:
 
 - [Node.js](https://nodejs.org/) (v16 or later)
 - [npm](https://www.npmjs.com/) or [Yarn](https://classic.yarnpkg.com/en/docs/getting-started/) (for managing packages)
+- fk yarn, we're bro npm
 
 ### Installation
 
@@ -87,9 +88,10 @@ Here’s a brief overview of the project structure:
 
 ## Scripts
 
-- `npm start` or `yarn start`: Start the development server.
-- `npm run build` or `yarn build`: Build the project for production.
-- `npm test` or `yarn test`: Run tests.
+<!-- `npm start` or `yarn start`: Start the development server.-->
+- `npm run dev`: Start the development server
+- `npm run build`: Build the project for production.
+- `npm test`: Run tests.
 
 <!--## Contributing
 
