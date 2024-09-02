@@ -5,6 +5,7 @@ function App() {
   return (
     <>
       <p>isa kang malaking burat</p>
+      <div>1 week development</div>
     </>
   );
 }
