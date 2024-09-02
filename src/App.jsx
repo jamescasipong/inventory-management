@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-      <p className="text-black">hello world</p>
+      <p className="text-yellow">isa kang burat</p>
     </>
   );
 }
