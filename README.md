@@ -46,8 +46,6 @@ Ensure you have the following installed:
    
    ```bash
    npm install
-   # or
-   yarn install
 
 4. Create a .env file in the root directory and add the following environment variables:
    
@@ -59,11 +57,9 @@ Ensure you have the following installed:
 1. Start the development server:
    
    ```bash
-   npm start
-   # or
-   yarn start
+   npm run dev
 
-2. Open your browser and navigate to http://localhost:3000 to see the application in action.
+2. Open your browser and navigate to http://localhost:5173 to see the application in action.
 
 
 ## Project Structure
