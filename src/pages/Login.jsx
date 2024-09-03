@@ -15,7 +15,6 @@ const Login = () => {
   };
 
   const handleForgotPassword = () => {
-    // Handle the forgot password logic here
     console.log("Forgot password clicked");
   };
 
