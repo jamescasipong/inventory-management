@@ -23,7 +23,7 @@ const navigate = useNavigate();
           </div>
         </div>
 
-        <form class="md:col-span-2 w-full py-6 px-6 sm:px-16">
+        <form action="" class="md:col-span-2 w-full py-6 px-6 sm:px-16">
           <div class="mb-6">
             <h3 class="text-gray-800 text-2xl font-bold">Create an account</h3>
           </div>
@@ -77,7 +77,7 @@ const navigate = useNavigate();
           </div>
 
           <div class="!mt-12">
-            <button type="button" class="w-full py-3 px-4 tracking-wider text-sm rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none">
+            <button type="submit" class="w-full py-3 px-4 tracking-wider text-sm rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none">
               Create an account
             </button>
           </div>
