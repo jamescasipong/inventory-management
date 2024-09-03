@@ -1,6 +1,18 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 
-const Login = ({setChange}) => {
+const Login = () => {
+
+  const navigate = useNavigate();
+
+  const handleSignup = () => {
+    navigate("/signup");
+  };
+
+  const goToDashboard = () => {
+    navigate("/home");
+  }
+
   return (
     <div>
     <div class="bg-gray-50 font-[sans-serif]">
@@ -47,11 +59,11 @@ const Login = ({setChange}) => {
               </div>
 
               <div class="!mt-8">
-                <button type="button" class="w-full py-3 px-4 text-sm tracking-wide rounded-lg text-white bg-blue-600 hover:bg-blue-700 focus:outline-none">
+                <button onClick={goToDashboard} type="button" class="w-full py-3 px-4 text-sm tracking-wide rounded-lg text-white bg-blue-600 hover:bg-blue-700 focus:outline-none">
                   Sign in
                 </button>
               </div>
-              <p  class="text-gray-800 text-sm !mt-8 text-center">Don't have an account? <a onClick={setChange} href="javascript:void(0);" class="text-blue-600 hover:underline ml-1 whitespace-nowrap font-semibold">Register here</a></p>
+              <p  class="text-gray-800 text-sm !mt-8 text-center">Don't have an account? <a onClick={handleSignup} href="javascript:void(0);" class="text-blue-600 hover:underline ml-1 whitespace-nowrap font-semibold">Register here</a></p>
             </form>
           </div>
         </div>

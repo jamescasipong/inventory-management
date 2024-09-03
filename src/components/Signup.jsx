@@ -1,6 +1,13 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 
-const Signup = ({setChange}) => {
+const Signup = () => {
+const navigate = useNavigate();
+
+  const handleSignin = () => {
+    navigate("/login");
+  };
+
   return (
     <div className='bg-gray-50 w-full'>
       <div class="font-[sans-serif] max-w-4xl flex items-center mx-auto md:h-screen p-4">
@@ -74,7 +81,7 @@ const Signup = ({setChange}) => {
               Create an account
             </button>
           </div>
-          <p class="text-gray-800 text-sm mt-6 text-center">Already have an account? <a onClick={setChange} href="javascript:void(0);" class="text-blue-600 font-semibold hover:underline ml-1">Login here</a></p>
+          <p class="text-gray-800 text-sm mt-6 text-center">Already have an account? <a onClick={handleSignin} href="javascript:void(0);" class="text-blue-600 font-semibold hover:underline ml-1">Login here</a></p>
         </form>
       </div>
     </div>
