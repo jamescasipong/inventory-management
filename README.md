@@ -1,6 +1,6 @@
 # Inventory Management System Front-End
 
-Welcome to the front-end client for the Inventory Management System. This application is built using React and styled with Tailwind CSS. It communicates with a Laravel backend to provide a seamless inventory and sales management experience.
+Welcome to the front-end client for the Inventory Management System. This application is built using React and styled with Tailwind CSS. It communicates with a ASP.NET Core backend to provide a seamless inventory and sales management experience.
 
 ## Table of Contents
 
